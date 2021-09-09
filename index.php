@@ -54,8 +54,7 @@ class StringCalculator
 <body>
 <form method="post">	
 	<div style="margin-top:30px;">
-		Enter String: <input type="text" name="name" placeholder="Enter String" value="<?=$_POST['name'];?>" id="myInput">
-		<button onclick="document.getElementById('myInput').value = ''">Clear</button><br><br>
+		Input String: <input type="text" name="name" placeholder="Enter String" value="<?=$_POST['name'];?>" id="myInput"><br><br>
 		<input type="submit" name="submit" value="Calculate"><br>
 		
 	</div>	
